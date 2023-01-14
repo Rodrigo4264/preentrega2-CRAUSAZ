@@ -1,0 +1,13 @@
+.logo-header{
+    font-size: 3rem;
+    
+}
+.logo-header span{
+    color: red;
+}
+
+@media (min-width: 768px) { 
+    .navbar--activa{
+        background-color: gray;
+    }
+}
