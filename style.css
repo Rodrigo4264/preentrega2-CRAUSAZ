@@ -6,6 +6,8 @@
     color: red;
 }
 
+
+
 @media (min-width: 768px) { 
     .navbar--activa{
         background-color: gray;
