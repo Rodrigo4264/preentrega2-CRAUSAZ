@@ -1,0 +1,16 @@
+.header{
+    background-color: $negro;
+
+    &-logo{
+        font-size: 3rem;
+
+        & span{
+            color: $rojo;
+        }
+    }
+
+}
+
+.color-hamburger {
+    background-color: rgb(78, 78, 78);
+}

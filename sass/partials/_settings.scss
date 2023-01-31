@@ -1,0 +1,49 @@
+.m0p0{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-negro{
+    background-color: $negro;
+}
+
+.titulo-primario{
+    font-size: $tamano-titulo-primario;
+    color: $color-titulo-primario;
+    font-family: $fuente-titulo-primario ;
+    margin: 10px 0px;
+
+}
+
+.titulo{
+    font-size: $tamano-titulo ;
+    color: $color-titulo;
+    font-family: $fuente-titulo;
+    margin: 20px 0px ;
+}
+
+.texto{
+    font-size: $tamaño-textos;
+    color: $color-textos;
+    font-family: $fuente-textos;
+}
+
+.alinea-v{
+    display: flex;
+    align-items: center;
+}
+
+.alinea-h{
+    display: flex;
+    justify-content: center;
+}
+
+.tamaño-img-1{
+    width:40rem ;
+    height:25rem ;
+}
+
+.tamaño-img-2{
+    width: 27rem;
+    height:15rem ;
+}

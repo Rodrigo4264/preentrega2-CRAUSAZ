@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/*tamaño de fuente
+propiedade sde lafaja
+info de colgroup
+gradientes*/
+.m0p0 {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-negro {
+  background-color: black;
+}
+
+.titulo-primario {
+  font-size: 40px;
+  color: chocolate;
+  font-family: sans-serif;
+  margin: 10px 0px;
+}
+
+.titulo {
+  font-size: 30px;
+  color: chocolate;
+  font-family: sans-serif;
+  margin: 20px 0px;
+}
+
+.texto {
+  font-size: 10px;
+  color: darkblue;
+  font-family: sans-serif;
+}
+
+.alinea-v, .nosotros-texto {
+  display: flex;
+  align-items: center;
+}
+
+.alinea-h {
+  display: flex;
+  justify-content: center;
+}
+
+.tamaño-img-1, .flota-helicoptero {
+  width: 40rem;
+  height: 25rem;
+}
+
+.tamaño-img-2, .flota-aviones {
+  width: 27rem;
+  height: 15rem;
+}
+
+.header {
+  background-color: black;
+}
+
+.header-logo {
+  font-size: 3rem;
+}
+
+.header-logo span {
+  color: red;
+}
+
+.color-hamburger {
+  background-color: #4e4e4e;
+}
+
+/*soy index*/
+.color1 {
+  background-color: #bcc6d3;
+}
+
+.color2 {
+  background-color: #aedfee;
+}
+
+.btn-mvv-h {
+  width: 5.5rem;
+}
+
+.nosotros-mvv-img {
+  height: 25rem;
+  object-fit: cover;
+}
+
+.fondo--img {
+  background-image: url("../../image/contacto/backgroud.jpg");
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .navbar--activa {
+    background-color: gray;
+  }
+}

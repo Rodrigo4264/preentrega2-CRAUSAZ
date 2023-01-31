@@ -1,0 +1,22 @@
+.color1{
+    background-color: $color-fondo-1;
+}
+
+.color2{
+    background-color: $color-fondo-2;
+}
+
+.btn-mvv-h{
+    width:5.5rem ;
+}
+
+.nosotros{
+    &-mvv-img{
+        height: 25rem;
+        object-fit: cover;
+    }
+    
+    &-texto{
+        @extend .alinea-v;
+    }
+}
