@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .bg-negro{
     background-color: $negro;
 }
@@ -28,13 +29,15 @@
     font-family: $fuente-textos;
 }
 
+.d-flex{
+    display:flex
+}
+
 .alinea-v{
-    display: flex;
     align-items: center;
 }
 
 .alinea-h{
-    display: flex;
     justify-content: center;
 }
 

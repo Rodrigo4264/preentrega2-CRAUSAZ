@@ -3,3 +3,22 @@
     background-size: cover;
 }
 
+
+
+.main-contacto{
+    &-par{
+        font-size: 20px;
+        color: $azulo-oscuro;
+    }
+    &-formulario{
+        border: 1px solid $gris;
+        border-radius: 10px;
+
+        &-elementosmbmt{
+            margin: 20px 0;
+        }
+        &-elementosmb{
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -12,33 +12,35 @@ gradientes*/
   background-color: black;
 }
 
-.titulo-primario {
+.titulo-primario, .main-servicios-titulo-primario {
   font-size: 40px;
   color: chocolate;
   font-family: sans-serif;
   margin: 10px 0px;
 }
 
-.titulo {
+.titulo, .main-servicios-titulo {
   font-size: 30px;
   color: chocolate;
   font-family: sans-serif;
   margin: 20px 0px;
 }
 
-.texto {
-  font-size: 10px;
+.texto, .nosotros-texto, .main-texto {
+  font-size: 20px;
   color: darkblue;
   font-family: sans-serif;
 }
 
-.alinea-v, .nosotros-texto {
+.d-flex {
   display: flex;
+}
+
+.alinea-v, .nosotros-texto {
   align-items: center;
 }
 
 .alinea-h {
-  display: flex;
   justify-content: center;
 }
 
@@ -47,7 +49,7 @@ gradientes*/
   height: 25rem;
 }
 
-.tamaño-img-2, .flota-aviones {
+.tamaño-img-2, .flota-aviones, .servicios-desktop-img {
   width: 27rem;
   height: 15rem;
 }
@@ -89,6 +91,24 @@ gradientes*/
 .fondo--img {
   background-image: url("../../image/contacto/backgroud.jpg");
   background-size: cover;
+}
+
+.main-contacto-par {
+  font-size: 20px;
+  color: darkblue;
+}
+
+.main-contacto-formulario {
+  border: 1px solid darkgray;
+  border-radius: 10px;
+}
+
+.main-contacto-formulario-elementosmbmt {
+  margin: 20px 0;
+}
+
+.main-contacto-formulario-elementosmb {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {

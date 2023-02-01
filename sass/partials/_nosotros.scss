@@ -17,6 +17,7 @@
     }
     
     &-texto{
-        @extend .alinea-v;
+        @extend .alinea-v ;
+        @extend .texto;
     }
 }

@@ -1,0 +1,19 @@
+.main-servicios{
+    &-titulo-primario{
+        @extend .titulo-primario
+    }
+    &-titulo{
+        @extend .titulo
+    }
+}
+
+.main-texto{
+    @extend .texto
+}
+
+.servicios-desktop-img{
+@extend .tamaño-img-2
+}
+
+
+
