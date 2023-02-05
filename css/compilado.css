@@ -8,6 +8,22 @@ gradientes*/
   padding: 0;
 }
 
+.margent20 {
+  margin-top: 20px;
+}
+
+.margenb20 {
+  margin-bottom: 20px;
+}
+
+.padl10 {
+  padding: 0px 10px;
+}
+
+.padl20 {
+  padding: 0px 20px;
+}
+
 .bg-negro {
   background-color: black;
 }
@@ -54,6 +70,38 @@ gradientes*/
   height: 15rem;
 }
 
+/*ANIMACIONES*/
+.header-logo-animacion {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .header {
   background-color: black;
 }
@@ -81,6 +129,11 @@ gradientes*/
 
 .btn-mvv-h {
   width: 5.5rem;
+}
+
+.nosotros-mvv-caja {
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .nosotros-mvv-img {
@@ -114,5 +167,14 @@ gradientes*/
 @media (min-width: 768px) {
   .navbar--activa {
     background-color: gray;
+  }
+}
+
+@media (max-width: 320px) {
+  .titulo-primario, .main-servicios-titulo-primario {
+    font-size: 20px;
+  }
+  .titulo, .main-servicios-titulo {
+    font-size: 18px;
   }
 }

@@ -11,6 +11,10 @@
 }
 
 .nosotros{
+    &-mvv-caja{
+        border: 1px solid $negro;
+        border-radius: 5px;
+    }
     &-mvv-img{
         height: 25rem;
         object-fit: cover;

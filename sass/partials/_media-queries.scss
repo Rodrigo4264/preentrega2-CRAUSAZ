@@ -3,3 +3,13 @@
         background-color: gray;
     }
 }
+
+@media (max-width: 320px) { 
+    .titulo-primario{
+        font-size: 20px;
+    }
+
+    .titulo{
+        font-size: 18px;
+    }
+}

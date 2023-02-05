@@ -8,6 +8,7 @@
     <title>FLYSUR-NOSOTROS</title>
     <link rel="icon" type="image/x-icon" href="/image/favicon/png-clipart-airplane-aircraft-airplane-angle-computer.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="../css/compilado.css">
   </head>
   <body>
@@ -15,7 +16,7 @@
 
         <nav class="navbar navbar-expand-md bg-negro m0p0">
             <div class="container-fluid">
-              <a class="navbar-brand text-light m0p0" href="../index.html"><p class="header-logo m0p0">FLY<span>SUR</span> </p></a>
+              <a class="navbar-brand text-light m0p0 header-logo-animacion" href="../index.html"><p class="header-logo m0p0">FLY<span>SUR</span> </p></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon color-hamburger"></span>
               </button>
@@ -40,7 +41,7 @@
 
     </header>
     <main class="container-fluid">
-      <div class="row">
+      <div class="row margenb20">
         <div class="col-12 col-md-6"><img src="../image/nosotros/quienes_somos.jpg" class="img-fluid" alt="Pilito volando learjet60"></div>
 
         <div class="col-12 col-md-6 d-flex align-items-center ">
@@ -85,11 +86,11 @@
           </div>
         </div>
 
-      </div>
+      </div>    
 
-      <div class="row color2 alinea-v alinea-h">
+      <div data-aos="fade-right" class="row color2 alinea-v alinea-h nosotros-mvv-caja margenb20 padl20 ">
         <div class="col-6 d-none d-md-block d-lg-block">
-          <div class="d-flex justify-content-center titulo">Nuestra Misión</div>
+          <div class="d-flex justify-content-center titulo ">Nuestra Misión</div>
           <div class="nosotros-texto">Garantizar el más distinguido y confortable servicio para exigentes clientes. Una larga experiencia de más de 20 años en el sector aeronáutico nos permite brindar, en cada una de nuestras lineas de negocio, un servicio que se adapte a la medida de las necesidades de cada cliente optimizando los recursos (tiempo y dinero). Esto se logra tomando como base nuestros principales VALORES: Seguridad, Calidad y Eficiencia.</div>
         </div>
         <div class="col-6 d-none d-md-block d-lg-block">
@@ -97,7 +98,7 @@
         </div>
       </div>
 
-      <div class="row color1 alinea-v alinea-h">
+      <div data-aos="fade-left" class="row color1 alinea-v alinea-h nosotros-mvv-caja margenb20 ">
         <div class="col-6 d-none d-md-block d-lg-block">
           <img src="../image/nosotros/vision.jpg" class="img-fluid nosotros-mvv-img" alt="Gente brindando en un avion ">
         </div>
@@ -107,7 +108,7 @@
         </div>
       </div>
 
-      <div class="row color2 alinea-v alinea-h">
+      <div data-aos="fade-right" class="row color2 alinea-v alinea-h nosotros-mvv-caja margenb20  ">
         <div class="col-6 d-none d-md-block d-lg-block ">
           <div class="d-flex justify-content-center titulo">Nuestros Valores</div>
           <div class="nosotros-texto">Caracterizarnos en la industria por nuestros altos valores que contemplan: <strong>Seguridad</strong> : Cumplimos los más altos estándares de seguridad. <strong>Servicio de calidad</strong> : Priorizamos el servicio y la atención que brindamos en cada etapa de la experiencia de viaje. <strong>Conectividad</strong> : Brindamos un servicio público, rápido y confortable, que garantiza la movilidad dentro del país y con el exterior. Transparencia: Aplicamos procedimientos de acceso público y visibles, promoviendo la amplia participación en cada contratación.</div>
@@ -139,5 +140,9 @@
 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
