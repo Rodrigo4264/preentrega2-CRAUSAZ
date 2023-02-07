@@ -31,14 +31,14 @@ gradientes*/
 .titulo-primario, .main-servicios-titulo-primario {
   font-size: 40px;
   color: chocolate;
-  font-family: sans-serif;
+  font-family: 'Jost', sans-serif;
   margin: 10px 0px;
 }
 
 .titulo, .main-servicios-titulo {
   font-size: 30px;
   color: chocolate;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin: 20px 0px;
 }
 
